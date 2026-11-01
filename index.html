@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harrshinee L | Computer Science Engineering Student Portfolio</title>
+  <meta name="description" content="Portfolio of Harrshinee L, a B.E. Computer Science and Engineering student from Tiruchirappalli working with Python, Java, web technologies and AI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow" id="glow" aria-hidden="true"></div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="navbar">
+    <a href="#home" class="logo">Harrshinee L</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+    <nav id="navLinks" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="hello">Hi, I am</p>
+        <!-- The box around the name looks like an object-detection result (from the YOLO project) -->
+        <div class="detect-box">
+          <h1>Harrshinee L</h1>
+        </div>
+        <h2 class="role">B.E. Computer Science and Engineering Student</h2>
+        <p class="typed-line">I enjoy <span id="typed"></span></p>
+        <p class="intro">Final year student at Kongunadu College of Engineering and Technology. I build AI projects with Python and create web pages with HTML, CSS and JavaScript. I am looking for an opportunity to apply my skills, gain practical experience and grow as a software professional.</p>
+        <p class="vibing"><span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span> vibing with code and AI</p>
+        <div class="buttons">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="#contact" class="btn outline">Contact Me</a>
+        </div>
+        <div class="social">
+          <a href="https://github.com/harrshinee27" target="_blank" rel="noopener" aria-label="GitHub profile"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/harrshinee27" target="_blank" rel="noopener" aria-label="LinkedIn profile"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:lharishini2005@gmail.com" aria-label="Send email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <!-- PROFILE PHOTO: put your image in this folder as photo.jpg -->
+      <div class="photo-box">
+        <img src="photo.jpg" alt="Portrait of Harrshinee L" id="photo">
+        <span class="photo-placeholder" id="photoPlaceholder">[Add Profile Photo]</span>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Python</span><span>Java</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>SQL</span><span>OpenCV</span><span>YOLO</span><span>MiDaS</span><span>NLTK</span><span>Hugging Face</span><span>GitHub</span><span>VS Code</span><span>Python</span><span>Java</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>SQL</span><span>OpenCV</span><span>YOLO</span><span>MiDaS</span><span>NLTK</span><span>Hugging Face</span><span>GitHub</span><span>VS Code</span></div></div>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section reveal">
+      <h2 class="title">About Me</h2>
+      <div class="about-grid">
+        <div>
+          <p>I am a motivated Computer Science and Engineering student seeking an opportunity to apply my technical skills, gain practical experience and grow as a software professional. I have worked as a Full Stack Developer Intern and built a Generative AI learning assistant during my internships.</p>
+          <ul class="facts">
+          <li><i class="fas fa-location-dot"></i> Tiruchirappalli, Tamil Nadu</li>
+          <li><i class="fas fa-heart"></i> Software Development, Front-End Development, Web Design</li>
+          <li><i class="fas fa-language"></i> Tamil, English</li>
+          <li><i class="fas fa-users"></i> Problem Solving, Leadership, Adaptability, Quick Learning</li>
+        </ul>
+        </div>
+        <img src="about.jpg" alt="Harrshinee smiling outdoors" class="about-photo" loading="lazy">
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="section reveal">
+      <h2 class="title">Education</h2>
+      <div class="timeline">
+        <div class="item">
+          <span class="date">2023 – 2027</span>
+          <h3>B.E. Computer Science and Engineering</h3>
+          <p>Kongunadu College of Engineering and Technology, Trichirappalli</p>
+          <p class="tag">CGPA: 7.7 / 10</p>
+        </div>
+        <div class="item">
+          <span class="date">2022 – 2023</span>
+          <h3>Higher Secondary (XII)</h3>
+          <p class="tag">Percentage: 72.8%</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section reveal">
+      <h2 class="title">Technical Skills</h2>
+      <div class="skill-grid">
+        <div class="card">
+          <h3><i class="fas fa-code"></i> Programming Languages</h3>
+          <div class="badges"><span>Java</span><span>Python</span><span>JavaScript</span></div>
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-window-maximize"></i> Frontend Technologies</h3>
+          <div class="badges"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-database"></i> Databases</h3>
+          <div class="badges"><span>SQL</span></div>
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-brain"></i> AI Libraries and Models</h3>
+          <div class="badges"><span>Hugging Face Transformers</span><span>NLTK</span><span>OpenCV</span><span>YOLO</span><span>MiDaS</span></div>
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-screwdriver-wrench"></i> Tools and Platforms</h3>
+          <div class="badges"><span>GitHub</span><span>VS Code</span></div>
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-handshake"></i> Soft Skills</h3>
+          <div class="badges"><span>Problem Solving</span><span>Leadership</span><span>Adaptability</span><span>Quick Learning</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience" class="section reveal">
+      <h2 class="title">Experience and Internships</h2>
+      <div class="timeline">
+        <div class="item">
+          <span class="date">2025</span>
+          <h3>Full Stack Developer Intern</h3>
+          <p class="company">Galwin Technology</p>
+          <ul>
+            <li>Developed user interfaces using HTML, CSS and JavaScript.</li>
+            <li>Collaborated with team members to build scalable web applications.</li>
+            <li>Followed industry-standard coding practices and documentation.</li>
+          </ul>
+        </div>
+        <div class="item">
+          <span class="date">2025</span>
+          <h3>Teachmate AI (Generative AI)</h3>
+          <p class="company">DigiDARA Technologies</p>
+          <ul>
+            <li>Developed an AI-based learning assistant to help students understand concepts and doubts.</li>
+            <li>Provided instant responses to academic questions using AI and NLP concepts.</li>
+            <li>Designed to support interactive learning and improve study efficiency.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section reveal">
+      <h2 class="title">Featured Projects</h2>
+      <div class="project-grid">
+        <article class="card project">
+          <span class="date">2025</span>
+          <h3>AI-Powered Document Summarizer and Question Generator for Education</h3>
+          <p class="role-line">Role: Full Stack AI Developer</p>
+          <ul>
+            <li>Generates concise summaries from lengthy documents using Python, NLP and Hugging Face Transformers.</li>
+            <li>Creates questions automatically to improve document understanding and reduce manual reading time for students and professionals.</li>
+          </ul>
+          <div class="badges"><span>Python</span><span>Hugging Face Transformers</span><span>NLTK</span><span>NLP</span></div>
+        </article>
+        <article class="card project">
+          <span class="date">2026</span>
+          <h3>Vision-Based Navigation Assistant Using Object Detection and Depth Estimation</h3>
+          <p class="role-line">Role: Object Detection Developer</p>
+          <ul>
+            <li>Detects obstacles in real time using YOLO object detection and MiDaS depth estimation.</li>
+            <li>Improves navigation accuracy by estimating object distance and helping users identify nearby obstacles with computer vision.</li>
+          </ul>
+          <div class="badges"><span>Python</span><span>OpenCV</span><span>YOLO</span><span>MiDaS</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section id="certifications" class="section reveal">
+      <h2 class="title">Certifications and Achievements</h2>
+      <div class="two-col">
+        <div class="card">
+          <h3><i class="fas fa-certificate"></i> Certifications</h3>
+          <ul>
+            <li>Core Java</li>
+            <li>Cyber Security: Essential Security Skills</li>
+            <li>Internet of Things — NPTEL</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-trophy"></i> Co-curricular Activities</h3>
+          <ul>
+            <li>Participated in technical workshops on AI, Java and Web Development.</li>
+            <li>Presented technical papers at college-level and inter-college symposiums.</li>
+            <li>Participated in hackathons, collaborating with teams to develop innovative solutions.</li>
+            <li>Actively participated in technical events and paper presentation competitions.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section reveal">
+      <h2 class="title">Contact Me</h2>
+      <div class="two-col">
+        <div class="contact-info">
+          <p>I am open to internships and entry-level opportunities. Send me a message or reach out directly.</p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:lharishini2005@gmail.com">lharishini2005@gmail.com</a></p>
+          <p><i class="fas fa-phone"></i> <a href="tel:+916382036270">+91 6382036270</a></p>
+          <p><i class="fas fa-location-dot"></i> Tiruchirappalli, Tamil Nadu</p>
+        </div>
+        <form id="contactForm" class="card" novalidate>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" autocomplete="name">
+          <small class="error" id="nameError"></small>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email">
+          <small class="error" id="emailError"></small>
+
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject">
+          <small class="error" id="subjectError"></small>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+          <small class="error" id="messageError"></small>
+
+          <button type="submit" class="btn primary">Send Message</button>
+          <p class="status" id="formStatus" role="status"></p>
+          <p class="note">Note: a plain website cannot send emails by itself. This form opens your email app with the message ready to send. For real delivery, connect a backend or a form service such as Formspree or Netlify Forms.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; <span id="year"></span> Harrshinee L. All rights reserved.</p>
+  </footer>
+
+  <button id="topBtn" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
