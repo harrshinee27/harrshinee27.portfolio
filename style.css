@@ -47,6 +47,8 @@ nav a.active { color: var(--text); background: var(--accent-soft); }
 .detect-label { position: absolute; top: -1.55rem; left: 18px; background: var(--accent); color: #0c0c10; font-size: 0.75rem; font-weight: 700; padding: 0.1rem 0.7rem; border-radius: 8px 8px 0 0; }
 h1 { font-family: var(--head-font); font-size: clamp(2.4rem, 7vw, 4.4rem); line-height: 1.15; letter-spacing: -1px; }
 .role { font-size: 1.15rem; font-weight: 500; margin: 1.4rem 0 0.6rem; }
+.skill-line { display: flex; flex-wrap: wrap; row-gap: 0.2rem; font-weight: 500; font-size: 0.95rem; margin-bottom: 0.5rem; }
+.skill-line span + span::before { content: "|"; color: var(--accent); margin: 0 0.7rem; }
 .typed-line { color: var(--muted); }
 #typed { color: var(--accent); font-weight: 700; border-right: 2px solid var(--accent); padding-right: 3px; }
 .intro { max-width: 540px; color: var(--muted); margin-top: 1rem; }
