@@ -93,7 +93,7 @@ form.addEventListener('submit', function (event) {
 });
 
 // ===== TYPING EFFECT (uses your areas of interest from the resume) =====
-var words = ['Software Development', 'Front-End Development', 'Web Design', 'Artificial Intelligence'];
+var words = ['Software Development', 'Full Stack Development', 'Web Development', 'Artificial Intelligence'];
 var wordIndex = 0;
 var charIndex = 0;
 var deleting = false;
